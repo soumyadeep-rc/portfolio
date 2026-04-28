@@ -18,7 +18,7 @@ const Stars = () => {
                   strings: [
                     "ICPC West Asia Regionalist",
                     "Full-Stack Web3 Developer",
-                    "Building AI-Powered Systemms",
+                    "Building AI-Powered Systems",
                   ],
                   autoStart: true,
                   loop: true,
