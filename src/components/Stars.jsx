@@ -53,6 +53,30 @@ const Stars = () => {
           </div>
         </a>
       </div>
+      
+      <div className="absolute xs:bottom-10 bottom-32 left-6 sm:left-12 z-30">
+        <a
+          href="/Soumyadeep_Resume.pdf" /* Points to the file in your public folder */
+          download="Soumyadeep_Resume.pdf"
+          className="flex items-center gap-2bg-white/50 backdrop-blur-sm bg-white text-black px-5 py-3 rounded-full font-bold hover:bg-gray-300 hover:-translate-y-1 transition-all duration-300 shadow-lg"
+        >
+          Download Resume
+          {/* Download Arrow SVG */}
+          <svg 
+            className="w-5 h-5 animate-bounce" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              strokeWidth="2.5" 
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+            ></path>
+          </svg>
+        </a>
+      </div>
 
       <style>
         {`
@@ -60,6 +84,7 @@ const Stars = () => {
             .primaryBorder{ border-color: ${theme.primaryColor} }
           `}
       </style>
+
     </section>
   );
 };

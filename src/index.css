@@ -121,3 +121,12 @@ section {
   background-color: transparent !important;
   background: transparent !important;
 }
+
+/* Fix for Timeline Line overlapping icons */
+.vertical-timeline::before {
+  z-index: 0 !important;
+}
+
+.vertical-timeline-element-icon {
+  z-index: 10 !important;
+}

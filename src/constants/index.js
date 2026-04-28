@@ -1,8 +1,9 @@
 import julogo from "../assets/company/julogo.png";
 import vmslogo from "../assets/company/vmslogo.png";
-import portfolio from "../assets/projects/portfolio.png";
+//import portfolio from "../assets/projects/portfolio.png";
 import greenlens from "../assets/projects/greenlens.png";
 import ragcraw from "../assets/projects/ragcraw.png";
+import quizzy from "../assets/projects/quizzy.png";
 
 export const navLinks = [
   { id: "skills", title: "Skills" },
@@ -87,7 +88,7 @@ const achievements = [
   },
   {
     title: "Competitive Programming Mastery",
-    description: "Reached Pupil status on Codeforces (Max Rating: 1363) and a 3-Star rating on CodeChef. Solved over 500+ algorithmic problems across various platforms.",
+    description: "Reached Specialist status on Codeforces (Max Rating: 1448) and a 3-Star rating on CodeChef. Solved over 500+ algorithmic problems across various platforms.",
     date: "Present",
   },
   {
@@ -115,9 +116,9 @@ const projects = [
       { name: "web3", color: "pink-text-gradient" },
     ],
     source_code_link: "https://github.com/soumyadeep-rc/GreenLens/",
-    demo_link: "https://green-lens-nine.vercel.app/",
+    demo_link: "https://greenlens-ghdl.onrender.com/",
     target_blank: true,
-    icon: greenlens, // TODO: Replace with greenlens screenshot
+    icon: greenlens,
   },
   {
     name: "RAG-CRAW",
@@ -131,21 +132,21 @@ const projects = [
     source_code_link: "https://github.com/soumyadeep-rc/RAG-CRAW/",
     demo_link: "https://src-rag-craw.streamlit.app/",
     target_blank: true,
-    icon: ragcraw, // TODO: Replace with RAG-CRAW screenshot
+    icon: ragcraw,
   },
   {
-    name: "Portfolio",
+    name: "Quizzy",
     description:
-      "A 3D interactive portfolio website to elegantly showcase my journey including my education, skills in Full-Stack development, Web3 and AI/ML, featuring dynamic themes and an integrated contact system.",
+      "A distributed live quiz application built with React, Node.js, and Redis. This platform utilizes WebSockets for real-time player interaction and Redis Sorted Sets for high-concurrency leaderboard management.",
     tags: [
-      { name: "react", color: "orange-text-gradient" },
-      { name: "threejs", color: "pink-text-gradient" },
-      { name: "tailwindcss", color: "blue-text-gradient" },
+      { name: "docker", color: "orange-text-gradient" },
+      { name: "redis", color: "pink-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
     ],
-    source_code_link: "https://github.com/soumyadeep-rc/",
-    demo_link: "#",
-    target_blank: false,
-    icon: portfolio,
+    source_code_link: "https://github.com/soumyadeep-rc/Quizzy/",
+    demo_link: "https://quizzy-src.vercel.app/",
+    target_blank: true,
+    icon: quizzy,
   },
 ];
 
