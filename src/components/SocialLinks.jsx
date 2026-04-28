@@ -83,7 +83,8 @@ function SocialLinks() {
             <li className="px-4 py-2">
               <Tooltip text="Resume" position="left">
                 <a
-                  href="https://drive.google.com/file/d/1G6A_cwXZMviNtvGoOL9AcZVG-G0EOrkE/view?usp=sharing"
+                  href="/Soumyadeep_Resume.pdf"
+                  download="Soumyadeep_Resume.pdf"
                   target="_blank"
                 >
                   <img
