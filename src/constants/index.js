@@ -4,6 +4,7 @@ import vmslogo from "../assets/company/vmslogo.png";
 import greenlens from "../assets/projects/greenlens.png";
 import ragcraw from "../assets/projects/ragcraw.png";
 import quizzy from "../assets/projects/quizzy.png";
+import fifa from "../assets/projects/fifa.png";
 
 export const navLinks = [
   { id: "skills", title: "Skills" },
@@ -147,6 +148,20 @@ const projects = [
     demo_link: "https://quizzy-src.vercel.app/",
     target_blank: true,
     icon: quizzy,
+  },
+  {
+    name: "FIFA WC Predictor",
+    description:
+      "A machine learning-based application that predicts the outcomes of FIFA World Cup matches using historical data and advanced algorithms.",
+    tags: [
+      { name: "python", color: "green-text-gradient" },
+      { name: "XGBoost", color: "blue-text-gradient" },
+      { name: "pandas", color: "orange-text-gradient" },
+    ],
+    source_code_link: "https://github.com/soumyadeep-rc/fifa-wc-2026-prediction/",
+    demo_link: "https://fifa-wc-2026-prediction-src.streamlit.app/",
+    target_blank: true,
+    icon: fifa,
   },
 ];
 
